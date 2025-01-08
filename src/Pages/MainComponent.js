@@ -1,4 +1,4 @@
-import React from "react";  // 'React' should be lowercase
+import React from "react"; 
 import TransactionsApi from "../Components/TransactionsApi"
 const MainComponent = () => {
   return (
@@ -7,6 +7,5 @@ const MainComponent = () => {
     </div>
   );
 };
-
 export default MainComponent;
 

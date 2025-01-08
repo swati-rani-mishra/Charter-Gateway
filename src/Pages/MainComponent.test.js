@@ -6,8 +6,6 @@ import MainComponent from "./MainComponent";
 describe("MainComponent", () => {
   test("renders TransactionsApi component", () => {
     render(<MainComponent />);
-
-    // Check if the TransactionsApi component's output is rendered
     expect(screen.getByText(/Customer Rewards Program/i)).toBeInTheDocument();
   });
 });
