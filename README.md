@@ -1,4 +1,43 @@
-# Getting Started with Create React App
+# Charter Gateway
+
+## Project Overview
+This is a rewards program management app built using React JS. It calculates reward points for customers based on their purchases.
+
+## Features
+- Calculates rewards based on purchase amounts.
+- Displays reward points per customer and per month.
+
+## Folder Structure
+/src
+  /components        // Place components here
+  /pages             // Main pages of the app
+  App.js             // Main App component
+  index.js           // Entry point for React app
+/public
+  /data              // Place static JSON files here
+  index.html
+
+
+##  Testing Documentation folder structure
+/src
+  /components
+    TransactionsApi.js
+    TransactionsApi.test.js  // Test file for TransactionsApi component
+  /pages
+    MainComponent.js
+    MainComponent.test.js    // Test file for MainComponent
+## Tools and Libraries Used
+Jest: A widely used JavaScript testing framework for running test cases.
+React Testing Library: A utility for testing React components by simulating real user interactions and verifying their output.
+
+## run test commnd
+npm test
+npm test -- --watchAll
+npm test -- --detectOpenHandles
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +107,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+ -->

@@ -1,9 +1,13 @@
 import './App.css';
-import MainComponent from './Main';
+// import MainComponent from './Main';
+import MainComponent from './Pages/MainComponent';
 function App() {
   return (
     <div className="App">
-      <MainComponent />
+      <h1>Customer Rewards Program</h1>
+      < MainComponent />
+      {/* <TransactionsApi /> */}
+      {/* <MainComponent /> */}
     </div>
   );
 }

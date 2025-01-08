@@ -1,0 +1,15 @@
+
+// // const RewardsProgramsFetch = () => {
+// const transactions = [
+//     { id: 1, customer: "Alice", amount: 120, date: "2024-10-05" },
+//     { id: 2, customer: "Alice", amount: 75, date: "2024-10-15" },
+//     { id: 3, customer: "Bob", amount: 200, date: "2024-11-10" },
+//     { id: 4, customer: "Alice", amount: 55, date: "2024-11-20" },
+//     { id: 5, customer: "Bob", amount: 120, date: "2024-12-01" },
+//   ];
+  
+//    const fetchTransactions = () =>
+//     new Promise((resolve) => setTimeout(() => resolve(transactions), 1000));
+// // }
+// export { fetchTransactions };
+// // export default RewardsProgramsFetch;
